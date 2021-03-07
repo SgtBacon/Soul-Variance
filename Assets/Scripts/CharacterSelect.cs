@@ -15,6 +15,7 @@ public class CharacterSelect : MonoBehaviour
     //Load an overlay for picking level, send both characters to chosen level
     public void PlayerSelect(Button b)
     {
+        SelectedChar.name = b.name;
         Auto_Select(b.name);
     }
     public void Auto_Select(string SelectedChar)
