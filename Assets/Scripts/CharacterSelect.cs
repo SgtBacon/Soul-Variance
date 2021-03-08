@@ -42,4 +42,8 @@ public class CharacterSelect : MonoBehaviour
     {
         SceneManager.LoadScene(b.name);
     }
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
 }
